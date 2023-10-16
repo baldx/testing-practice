@@ -19,4 +19,8 @@ function maxValue (arr) {
     return arr.sort()[arr.length - 1]
 }
 
-export {averageValue, minValue, maxValue};
+function arrayLength (arr) {
+    return arr.length;
+}
+
+export {averageValue, minValue, maxValue, arrayLength};
