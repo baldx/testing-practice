@@ -15,7 +15,11 @@ function minValue (arr) {
     return minValue;
 }
 
-export {averageValue, minValue};
+function maxValue (arr) {
+    return arr.sort()[arr.length - 1]
+}
+
+export {averageValue, minValue, maxValue};
 
 
 // arr.forEach(num => {
