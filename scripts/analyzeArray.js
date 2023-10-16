@@ -20,11 +20,3 @@ function maxValue (arr) {
 }
 
 export {averageValue, minValue, maxValue};
-
-
-// arr.forEach(num => {
-//     total += num;
-// })
-// object.average = total / arr.length;
-
-// return object.average;
