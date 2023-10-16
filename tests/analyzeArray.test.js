@@ -1,4 +1,4 @@
-import {averageValue, minValue} from "../scripts/analyzeArray";
+import {averageValue, minValue, maxValue, arrayLength} from "../scripts/analyzeArray";
 
 it('return average value', () => {
     expect(averageValue([1, 8, 3, 4, 2, 6])).toBe(4);
